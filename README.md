@@ -17,6 +17,7 @@
 
 -  To pull a branch
 > **git checkout <branch_name>**
+
 > **git pull**
 
 ----------
@@ -58,7 +59,8 @@ Remote's are generally places where git repositories of your interest are situat
 > **git branch**
 
 -  Create a branch
-> **git checkout -b <branch_name>****
+> **git checkout -b <branch_name>**
+
 > **git push <remote_name> <branch_name>**
 
 -  To Delete a branch
@@ -91,6 +93,7 @@ First checkout to the branch in which you want to merge the changes(lets say bra
 
 If remote not added, then add remote first.
 > **git fetch <remote_name>**
+
 > **git merge <remote_name>/<remote_branch_name>**
 
 ----------
@@ -104,6 +107,7 @@ First we will add a remote(forked_repo_clone_url) and name it as upstream.
 
 -  Update remote
 > **git fetch upstream**
+
 > **git merge upstream/<upstream_branch_name>**
 
 ----------
