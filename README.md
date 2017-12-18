@@ -65,7 +65,7 @@ Remote's are generally places where git repositories of your interest are situat
 
 -  To Delete a branch
 
-First checkout to some other branch, for now lets say master because you cannot delete the branch in which you are already present.  
+First checkout to some other branch, for now lets say `master` because you cannot delete the branch in which you are already present.  
 > **git checkout master**
 
 Delete branch locally(forcefull delete)
@@ -80,7 +80,7 @@ Delete branch from remote
 
 -  Merge between branches
 
-First checkout to the branch in which you want to merge the changes(lets say branch_one) from another branch(lets say branch_two).  
+First checkout to the branch in which you want to merge the changes(lets say `branch_one`) from another branch(lets say `branch_two`).  
 > **git checkout branch_one**
 
 Now lets merge assuming that no conlicts are there.
@@ -88,7 +88,7 @@ Now lets merge assuming that no conlicts are there.
 
 -  Merge into a branch form remote.
 
-First checkout to the branch in which you want to merge the changes(lets say branch_one) from remote branch.  
+First checkout to the branch in which you want to merge the changes(lets say `branch_one`) from remote branch.  
 > **git checkout branch_one**
 
 If remote not added, then add remote first.
@@ -102,7 +102,7 @@ If remote not added, then add remote first.
 
 -  Add Upstream
 
-First we will add a remote(forked_repo_clone_url) and name it as upstream.  
+First we will add a remote(forked_repo_clone_url) and name it as `upstream`.  
 > **git remote add upstream <repo_clone_url>**
 
 -  Update remote
