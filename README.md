@@ -185,6 +185,10 @@ To get all branches
 -  Check all branch names already present
 > **git branch**
 
+-  Check all branch present in repository
+> **git branch -r**
+
+
 To get all branches
 > **git fetch --all**
 
