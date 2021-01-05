@@ -256,4 +256,8 @@ First we will add a remote(forked_repo_clone_url) and name it as `upstream`.
 
 - To setup git editor other than vim
 > **git config --global core.editor "atom -n -w"**
+
+-  Reset Config
+> **git config --global --unset-all core.editor**
+> **git config --unset-all core.editor**
 ----------
