@@ -259,5 +259,6 @@ First we will add a remote(forked_repo_clone_url) and name it as `upstream`.
 
 -  Reset Config
 > **git config --global --unset-all core.editor**
+
 > **git config --unset-all core.editor**
 ----------
