@@ -203,10 +203,13 @@ First checkout to some other branch, for now lets say `master` because you canno
 > **git checkout master**
 
 Delete branch locally(forcefull delete)
-> **git branch -D <branch_name>**
+> **git branch -D -r <branch_name>**
 
 Delete branch from remote
 > **git push <remote_name> --delete <branch_name>**
+
+Remove Stale Branches
+> **git remote prune origin** 
 
 ----------
 
